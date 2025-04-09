@@ -6,7 +6,7 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 
-//Route::get('/', [LoginController::class, 'index'])->name('login');
+Route::get('/', [LoginController::class, 'index'])->name('login');
 Route::post('/login', [LoginController::class, 'loginProcess'])->name('login.process');
 Route::get('/logout', [LoginController::class, 'destroy'])->name('login.destroy');
 Route::get('/create-user-login', [LoginController::class, 'create'])->name('login.create-user');
