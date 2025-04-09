@@ -27,7 +27,7 @@
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                     <li><a href="{{ route('user.index') }}" class="nav-link px-2 text-secondary">Home</a></li>
                     <li><a href="{{ route('user.index') }}" class="nav-link px-2 text-white">Usuários</a></li>
-                    <li><a href="{{ route('company.index') }}" class="nav-link px-2 text-white">Empresas</a></li>
+                    <li><a href="{{ route('contact.index') }}" class="nav-link px-2 text-white">Contatos</a></li>
                 </ul>
 
                 <div class="text-end">
